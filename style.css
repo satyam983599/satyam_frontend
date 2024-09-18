@@ -1,0 +1,80 @@
+body {
+  font-family: "Arial", sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-header {
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-img {
+  width: 70px;
+  border-radius: 20%;
+}
+
+.nav-link {
+  padding: 15px;
+  font-size: 16px;
+}
+
+.main-content {
+  margin-left: 250px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: none;
+  margin-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body h6 {
+  font-size: 14px;
+  color: #888;
+}
+
+.card-body h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 1rem 1.5rem;
+}
+
+.user-avatar {
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Card Styling */
